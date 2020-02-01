@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Century Gothic";
+}
+
+body {
+  box-shadow: 0 0 10px rgba(88, 88, 95, 0.12);
+  background-color: #fff;
+  border: 1px solid #e8ecf0;
+  padding: 40px;
+
+  width: 236mm;
+  height: 305mm;
+  margin: 0 auto;
+}
+
+a {
+  color: #343434;
+}
+
+@media print {
+  body {
+    border: 0;
+  }
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("fonts/CenturyGothic400.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("fonts/CenturyGothicItalique400.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("fonts/CenturyGothicGras700.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("fonts/CenturyGothicGrasItalique700.ttf");
+  font-weight: bold;
+  font-style: italic;
+}

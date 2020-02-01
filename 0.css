@@ -1,0 +1,18 @@
+.name {
+  font-size: 3.2em;
+  font-weight: bold;
+  color: #003d74;
+}
+
+.job-title {
+  font-weight: normal;
+  padding-top: 10px;
+  font-size: 1.45em;
+  color: #003d74;
+}
+
+.description {
+  padding-top: 12px;
+  color: #343434;
+  line-height: 1.7em;
+}

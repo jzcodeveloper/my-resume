@@ -1,0 +1,99 @@
+.flex {
+  display: flex;
+  height: calc(100% - 170px);
+  overflow: hidden;
+}
+
+.left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right {
+  flex: 0.4;
+  padding-left: 20px;
+}
+
+.item {
+  padding-top: 30px;
+  display: flex;
+  flex-flow: column;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid #d5d6d6;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 1.25em;
+  width: 1.25em;
+  font-size: 2.3em;
+  background-color: #003d74;
+}
+
+.heading-title {
+  padding-left: 5px;
+  font-size: 1.5em;
+  color: #003d74;
+}
+
+.field-title {
+  font-size: 1em;
+  color: #343434;
+}
+
+.field {
+  font-size: 1em;
+  display: block;
+  color: #343434;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  word-break: break-word;
+}
+
+.experience-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.experience-date {
+  flex: 0.33;
+  color: #343434;
+}
+.experience-date-item {
+  display: block;
+  margin: 5px 0;
+}
+.experience-details {
+  flex: 1;
+}
+.experience-job-title {
+  color: #343434;
+  font-size: 1.2em;
+}
+.experience-job-company {
+  display: block;
+  padding: 10px 0 5px 0;
+  color: #343434;
+}
+.experience-summary {
+  color: #343434;
+  line-height: 1.7em;
+}

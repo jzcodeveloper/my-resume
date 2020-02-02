@@ -5,6 +5,10 @@
   font-family: "Century Gothic";
 }
 
+html {
+  background-color: rgb(40, 40, 40);
+}
+
 body {
   box-shadow: 0 0 10px rgba(88, 88, 95, 0.12);
   background-color: #fff;
@@ -14,6 +18,19 @@ body {
   width: 236mm;
   height: 305mm;
   margin: 0 auto;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+svg rect {
+  fill: #003d74;
+}
+
+svg path {
+  fill: #fbfbfb;
 }
 
 a {
